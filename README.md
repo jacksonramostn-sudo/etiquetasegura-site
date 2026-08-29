@@ -1,4 +1,4 @@
-# EtiquetaSegura — Site v0.1.0
+# EtiquetaSegura — Site v0.2.0
 
 Primeira versão do site oficial do EtiquetaSegura Pro.
 
@@ -36,3 +36,20 @@ Esta versão é estática e pode ser publicada no GitHub Pages, Netlify, Vercel 
 ## Observação
 
 Os botões de compra ainda são demonstrativos. Não publicar como checkout ativo antes de integrar um meio de pagamento real.
+
+
+## Download permanente
+
+O botão de download aponta para:
+
+`https://github.com/jacksonramostn-sudo/Etiquetasegura/releases/latest/download/EtiquetaSegura-Setup.exe`
+
+Para esse endereço continuar funcionando em todas as versões, anexe em **cada Release publicada** também um arquivo chamado exatamente:
+
+`EtiquetaSegura-Setup.exe`
+
+Além do instalador versionado, por exemplo:
+
+`EtiquetaSegura-Setup-0.21.4.exe`
+
+Assim o site não precisa ser alterado quando sair uma nova versão.
