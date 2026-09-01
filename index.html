@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+  <div class="launch-strip">
+    <div class="container launch-strip-inner">
+      <strong>🚀 PREÇO ESPECIAL DE LANÇAMENTO</strong>
+      <span>Pro Mensal por R$ 9,90 • Pro Anual por R$ 99,90</span>
+    </div>
+  </div>
+
   <header class="topbar">
     <div class="container nav">
       <a class="brand" href="#inicio" aria-label="EtiquetaSegura">
@@ -36,7 +43,7 @@
             organiza a fila e prepara a impressão em impressoras térmicas 100 × 150 mm.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#planos">Comprar licença</a>
+            <a class="btn btn-primary" href="#planos">Aproveitar lançamento</a>
             <a class="btn btn-secondary" href="#download">Baixar EtiquetaSegura</a>
           </div>
           <div class="trust-row">
@@ -138,7 +145,7 @@
               <li>✓ Atualizações do software</li>
               <li>✓ Suporte por e-mail</li>
             </ul>
-            <a class="btn btn-secondary full" href="#comprar" data-plan="mensal">Comprar mensal</a>
+            <a class="btn btn-secondary full" href="https://etiquetasegura-api.jacksonramos-tn.workers.dev/checkout?plan=M">Aproveitar mensal por R$ 9,90</a>
           </article>
 
           <article class="price-card featured">
@@ -152,27 +159,55 @@
               <li>✓ Atualizações do software</li>
               <li>✓ Suporte por e-mail</li>
             </ul>
-            <a class="btn btn-primary full" href="#comprar" data-plan="anual">Comprar anual</a>
+            <a class="btn btn-primary full" href="https://etiquetasegura-api.jacksonramos-tn.workers.dev/checkout?plan=A">Aproveitar anual por R$ 99,90</a>
           </article>
         </div>
         <p class="pricing-note">Precisa usar em mais computadores? Entre em contato para condições especiais.</p>
       </div>
     </section>
 
+    
+    <section class="section launch-highlight">
+      <div class="container launch-highlight-grid">
+        <div>
+          <p class="section-kicker">LANÇAMENTO ETIQUETASEGURA</p>
+          <h2>Comece pagando menos desde o primeiro dia.</h2>
+          <p>
+            Condições especiais de lançamento para os primeiros clientes do EtiquetaSegura.
+            Escolha mensal ou anual, pague por Pix via Mercado Pago e receba sua licença automaticamente por e-mail.
+          </p>
+        </div>
+        <div class="launch-offer-box">
+          <div class="launch-offer-row">
+            <span>Pro Mensal</span>
+            <div><del>R$ 19,90</del> <strong>R$ 9,90</strong></div>
+          </div>
+          <div class="launch-offer-row">
+            <span>Pro Anual</span>
+            <div><del>R$ 199,00</del> <strong>R$ 99,90</strong></div>
+          </div>
+          <small>Preço especial de lançamento. Sem contagem regressiva ou prazo artificial.</small>
+        </div>
+      </div>
+    </section>
+
     <section id="comprar" class="section alt">
       <div class="container buy-box">
         <div>
-          <p class="section-kicker">COMPRA</p>
-          <h2>Pagamento online será conectado aqui.</h2>
+          <p class="section-kicker">COMPRA AUTOMÁTICA</p>
+          <h2>Compre por Pix e receba sua licença automaticamente.</h2>
           <p>
-            Nesta primeira versão do site, os botões de compra estão preparados para receber
-            a integração com Mercado Pago ou Asaas. Depois do pagamento, a licença poderá ser
-            gerada automaticamente.
+            O pagamento é processado pelo Mercado Pago. Após a confirmação do Pix,
+            a licença do EtiquetaSegura é gerada automaticamente e uma cópia é enviada
+            para o e-mail informado na compra.
           </p>
         </div>
         <div class="buy-status">
-          <strong>Próxima integração</strong>
-          <span>Pagamento → confirmação → licença → ativação</span>
+          <strong>Pix via Mercado Pago</strong>
+          <small class="launch-trust">Pagamento confirmado → licença automática → cópia por e-mail</small>
+          <span>Pagamento → confirmação → licença → e-mail</span>
+          <a class="btn btn-primary full" href="https://etiquetasegura-api.jacksonramos-tn.workers.dev/checkout">Aproveitar lançamento</a>
+          <a class="release-link" href="https://etiquetasegura-api.jacksonramos-tn.workers.dev/recuperar-licenca">Recuperar uma licença</a>
         </div>
       </div>
     </section>
@@ -209,7 +244,15 @@
         </details>
         <details>
           <summary>O programa depende de internet para imprimir?</summary>
-          <p>A impressão é local. Algumas funções, como atualizações e futuras validações online, podem usar internet.</p>
+          <p>A impressão é local. Internet é usada para compra/ativação da licença, recuperação de licença e verificação de atualizações.</p>
+        </details>
+        <details>
+          <summary>Como recebo a licença depois da compra?</summary>
+          <p>Após a confirmação do Pix pelo Mercado Pago, a licença é exibida no checkout e uma cópia é enviada automaticamente para o e-mail informado.</p>
+        </details>
+        <details>
+          <summary>Perdi minha chave de licença. O que faço?</summary>
+          <p>Você pode usar a página de <a href="https://etiquetasegura-api.jacksonramos-tn.workers.dev/recuperar-licenca">recuperação de licença</a> informando os dados solicitados.</p>
         </details>
         <details>
           <summary>Posso trocar de computador?</summary>
