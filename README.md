@@ -1,19 +1,10 @@
-# EtiquetaSegura Site v0.4.2 — Lançamento Final
+# EtiquetaSegura Site v0.4.4 — Crédito com contato
 
-Corrigido:
-- removido definitivamente o bloco antigo "Pagamento online será conectado aqui";
-- removida a seção "Próxima integração";
-- removida referência ao Asaas;
-- checkout real via Mercado Pago;
-- Pro Mensal: R$ 9,90;
-- Pro Anual: R$ 99,90;
-- licença automática e envio por e-mail;
-- links preparados para https://checkout.etiquetasegura.com.br
+Base: v0.4.3.
 
-No GitHub Pages, substitua:
-- index.html
-- assets/style.css
-- assets/app.js
-- README.md
+Atualização:
+- "Jackson Ramos" agora é clicável no rodapé;
+- ao clicar, abre o cliente de e-mail para:
+  jacksonramos.tn@gmail.com
 
-Não apague o arquivo CNAME.
+Todo o restante do site foi mantido.
