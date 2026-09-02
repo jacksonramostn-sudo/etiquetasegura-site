@@ -1,55 +1,19 @@
-# EtiquetaSegura — Site v0.2.0
+# EtiquetaSegura Site v0.4.2 — Lançamento Final
 
-Primeira versão do site oficial do EtiquetaSegura Pro.
+Corrigido:
+- removido definitivamente o bloco antigo "Pagamento online será conectado aqui";
+- removida a seção "Próxima integração";
+- removida referência ao Asaas;
+- checkout real via Mercado Pago;
+- Pro Mensal: R$ 9,90;
+- Pro Anual: R$ 99,90;
+- licença automática e envio por e-mail;
+- links preparados para https://checkout.etiquetasegura.com.br
 
-## Estrutura
+No GitHub Pages, substitua:
+- index.html
+- assets/style.css
+- assets/app.js
+- README.md
 
-- `index.html` — página principal
-- `assets/style.css` — estilos
-- `assets/app.js` — interações simples
-
-## Como testar localmente
-
-Basta abrir `index.html` no navegador.
-
-Para um teste mais fiel com servidor local, no terminal dentro da pasta:
-
-```bash
-python -m http.server 8080
-```
-
-Depois abra `http://localhost:8080`.
-
-## Próximas integrações
-
-1. Link permanente do instalador oficial no GitHub Releases.
-2. Mercado Pago ou Asaas.
-3. Backend de clientes/licenças.
-4. Geração automática de licença após pagamento aprovado.
-5. Painel administrativo online.
-6. Termos de Uso e Política de Privacidade.
-
-## Publicação simples
-
-Esta versão é estática e pode ser publicada no GitHub Pages, Netlify, Vercel ou hospedagem comum.
-
-## Observação
-
-Os botões de compra ainda são demonstrativos. Não publicar como checkout ativo antes de integrar um meio de pagamento real.
-
-
-## Download permanente
-
-O botão de download aponta para:
-
-`https://github.com/jacksonramostn-sudo/Etiquetasegura/releases/latest/download/EtiquetaSegura-Setup.exe`
-
-Para esse endereço continuar funcionando em todas as versões, anexe em **cada Release publicada** também um arquivo chamado exatamente:
-
-`EtiquetaSegura-Setup.exe`
-
-Além do instalador versionado, por exemplo:
-
-`EtiquetaSegura-Setup-0.21.4.exe`
-
-Assim o site não precisa ser alterado quando sair uma nova versão.
+Não apague o arquivo CNAME.
